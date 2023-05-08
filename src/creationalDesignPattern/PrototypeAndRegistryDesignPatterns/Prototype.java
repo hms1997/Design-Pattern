@@ -1,2 +1,5 @@
-package creationalDesignPattern.PrototypeAndRegistryDesignPatterns;public interface Prototype {
+package creationalDesignPattern.PrototypeAndRegistryDesignPatterns;
+
+public interface Prototype<T> {
+    T clone();
 }
